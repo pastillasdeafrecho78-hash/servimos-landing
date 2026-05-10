@@ -21,3 +21,8 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' })
   })
 })
+
+document.querySelectorAll('video').forEach((video) => {
+  video.defaultPlaybackRate = 1.5
+  video.playbackRate = 1.5
+})
