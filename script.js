@@ -23,6 +23,6 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 })
 
 document.querySelectorAll('video').forEach((video) => {
-  video.defaultPlaybackRate = 1.5
-  video.playbackRate = 1.5
+  video.defaultPlaybackRate = 1.25
+  video.playbackRate = 1.25
 })
