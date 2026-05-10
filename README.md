@@ -23,7 +23,7 @@ También se puede abrir `index.html` directamente en el navegador, pero el servi
 - `index.html`: contenido y secciones de venta.
 - `styles.css`: identidad visual, layout responsive y componentes.
 - `script.js`: scroll suave y estado simple del header.
-- `assets/`: logo, icono, video demo, poster y láminas exportadas de la presentación.
+- `assets/`: logo, icono, video demo y poster.
 - `docs/landing-plan.md`: plan editorial y de producto para iterar la página.
 
 ## Próximo paso recomendado
