@@ -198,137 +198,19 @@ h1 {
   line-height: 1.65;
 }
 .conversion-cta { min-width: min(270px, 100%); }
-
-.privacy-notice {
-  max-width: 900px;
-  margin: clamp(2.5rem, 6vw, 4rem) auto 0;
-  padding: clamp(1.8rem, 4.5vw, 3rem);
-  border: 1px solid var(--line-strong);
-  border-radius: clamp(22px, 3vw, 34px);
-  background:
-    radial-gradient(circle at 100% 0%, rgba(255, 122, 24, 0.14), transparent 42%),
-    var(--panel-strong);
-  text-align: center;
-}
-.privacy-kicker {
-  margin-bottom: 0.75rem;
-  color: #ff9552;
-  font-size: 0.82rem;
-  font-weight: 900;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-}
-.privacy-notice h2 {
-  margin-bottom: 1rem;
-  font-size: clamp(1.85rem, 4.2vw, 3rem);
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: -0.04em;
-}
-.privacy-lead {
-  max-width: 680px;
-  margin: 0 auto 1.6rem;
-  color: var(--text);
-  font-size: clamp(1.05rem, 2vw, 1.25rem);
-  font-weight: 600;
-  line-height: 1.6;
-}
-.privacy-responsible {
-  margin: 0 auto 1.6rem;
-  padding: clamp(1.2rem, 3vw, 1.75rem) clamp(1.4rem, 4vw, 2.2rem);
-  border: 1px solid rgba(255, 210, 160, 0.35);
-  border-radius: 20px;
-  background: rgba(255, 122, 24, 0.08);
-}
-.privacy-label {
-  margin-bottom: 0.55rem;
-  color: var(--gold);
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-.privacy-name {
-  margin-bottom: 0.35rem;
-  color: var(--text);
-  font-size: clamp(1.45rem, 3.5vw, 2.1rem);
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-}
-.privacy-brand {
-  margin-bottom: 0.75rem;
-  color: var(--gold);
-  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
-  font-weight: 800;
-}
-.privacy-contact {
-  margin: 0;
-  color: var(--muted);
-  font-size: clamp(0.95rem, 1.8vw, 1.08rem);
-  line-height: 1.5;
-}
-.privacy-contact a {
-  color: var(--text);
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.privacy-summary {
-  max-width: 720px;
-  margin: 0 auto 1.5rem;
-  color: var(--muted);
-  font-size: clamp(0.98rem, 1.9vw, 1.12rem);
-  line-height: 1.7;
-}
-.privacy-summary strong { color: var(--text); font-weight: 800; }
-.privacy-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0.75rem 1.35rem;
-  border: 1px solid rgba(255, 210, 160, 0.45);
-  border-radius: 999px;
-  color: var(--gold);
-  font-size: clamp(0.95rem, 1.8vw, 1.05rem);
-  font-weight: 800;
-  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
-}
-.privacy-link:hover {
-  border-color: var(--line-strong);
-  background: rgba(255, 122, 24, 0.12);
-  transform: translateY(-1px);
-}
-
 .site-footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 0.5rem 1rem;
-  margin-top: clamp(2rem, 5vw, 3rem);
-  padding: clamp(1.4rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem) 2.4rem;
-  border-top: 1px solid var(--line);
-  background: rgba(9, 7, 6, 0.55);
+  gap: 0.65rem 1.4rem;
+  padding: 0 1rem 2.2rem;
   color: var(--muted);
-  font-size: clamp(0.92rem, 1.7vw, 1.05rem);
-  line-height: 1.5;
-  text-align: center;
+  font-size: 0.78rem;
 }
-.footer-brand { font-weight: 600; }
-.footer-responsible { color: var(--text); }
-.footer-responsible strong {
-  color: var(--gold);
-  font-weight: 900;
-}
-.footer-divider { color: rgba(206, 182, 164, 0.45); }
-.footer-privacy-link {
-  color: var(--gold);
-  font-size: clamp(0.95rem, 1.8vw, 1.08rem);
-  font-weight: 800;
+.site-footer a {
+  color: rgba(206, 182, 164, 0.85);
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
 }
 
 .legal-page {
@@ -343,51 +225,26 @@ h1 {
   background: var(--panel);
 }
 .legal-card h1 {
-  font-size: clamp(2.1rem, 5vw, 3.7rem);
-  font-weight: 900;
-  letter-spacing: -0.04em;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
 }
 .legal-card h2 {
-  margin: 2rem 0 0.75rem;
-  color: var(--gold);
-  font-size: clamp(1.35rem, 3.2vw, 1.75rem);
-  font-weight: 900;
-  letter-spacing: -0.02em;
+  margin: 1.75rem 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 .legal-card p,
 .legal-card li {
   color: var(--muted);
-  font-size: clamp(1rem, 1.9vw, 1.12rem);
-  line-height: 1.7;
+  font-size: 0.84rem;
+  line-height: 1.65;
 }
-.legal-card strong {
-  color: var(--text);
-  font-weight: 900;
-}
-.legal-card .legal-responsible {
-  margin: 1.5rem 0 0;
-  padding: 1.35rem 1.5rem;
-  border: 1px solid rgba(255, 210, 160, 0.35);
-  border-radius: 18px;
-  background: rgba(255, 122, 24, 0.08);
-}
-.legal-card .legal-responsible-name {
-  display: block;
-  margin-bottom: 0.35rem;
-  color: var(--text);
-  font-size: clamp(1.35rem, 3vw, 1.85rem);
-  font-weight: 900;
-}
-.legal-card .legal-responsible-brand {
-  display: block;
-  margin-bottom: 0.65rem;
-  color: var(--gold);
-  font-size: clamp(1.05rem, 2vw, 1.25rem);
-  font-weight: 800;
-}
+.legal-card strong { font-weight: 600; color: var(--muted); }
 .legal-card a {
-  color: var(--gold);
-  font-weight: 800;
+  color: rgba(206, 182, 164, 0.9);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -395,8 +252,12 @@ h1 {
 .legal-toplink {
   display: inline-flex;
   margin-bottom: 1.5rem;
-  color: var(--gold);
-  font-weight: 800;
+  color: rgba(206, 182, 164, 0.85);
+  font-size: 0.82rem;
+}
+.legal-card .eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
 }
 
 @media (max-width: 640px) {
@@ -405,6 +266,4 @@ h1 {
   .header-cta { min-height: 44px; padding: 0.68rem 0.8rem; font-size: 0.88rem; }
   .funnel { width: min(100% - 1rem, 1240px); }
   .replay-copy { align-items: flex-start; font-size: 0.86rem; }
-  .footer-divider { display: none; }
-  .site-footer { flex-direction: column; gap: 0.65rem; }
 }
