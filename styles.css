@@ -330,6 +330,46 @@ h1 {
   color: var(--muted);
   line-height: 1.62;
 }
+.pricing-model {
+  max-width: 1000px;
+  margin: 0 auto clamp(2.8rem, 6vw, 4rem);
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(21, 15, 12, 0.88);
+  text-align: center;
+}
+.pricing-model h2 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+.pricing-model > .section-copy {
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  text-align: left;
+}
+.pricing-grid article {
+  padding: 1.1rem 1.15rem;
+  border: 1px solid rgba(255, 125, 56, 0.22);
+  border-radius: 18px;
+  background: rgba(12, 9, 8, 0.72);
+}
+.pricing-grid h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.02rem;
+  color: var(--gold);
+}
+.pricing-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.58;
+}
 .conversion {
   max-width: 900px;
   margin: clamp(3rem, 7vw, 5rem) auto 0;
@@ -429,7 +469,8 @@ h1 {
   .header-cta { min-height: 42px; padding: 0.55rem 0.72rem; font-size: 0.8rem; }
   .funnel { width: min(100% - 1rem, 1240px); }
   .value-strip,
-  .evidence-grid { grid-template-columns: 1fr; }
+  .evidence-grid,
+  .pricing-grid { grid-template-columns: 1fr; }
   .intro-ctas,
   .conversion-ctas { flex-direction: column; }
   .intro-ctas .button,
