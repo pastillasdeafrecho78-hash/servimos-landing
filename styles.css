@@ -78,10 +78,7 @@ p, h1, h2 { margin-top: 0; }
   filter: blur(16px);
   transform: translate(-50%, -50%);
 }
-.brand img {
-  width: clamp(205px, 22vw, 290px);
-  filter: drop-shadow(0 0 22px rgba(255, 112, 56, 0.24));
-}
+.brand img { width: clamp(155px, 19vw, 214px); }
 
 .button {
   display: inline-flex;
